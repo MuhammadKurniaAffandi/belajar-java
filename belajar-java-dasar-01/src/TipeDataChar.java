@@ -3,8 +3,8 @@ public class TipeDataChar {
         char m = 'M';
         char k = 'K';
         char a = 'A';
-        System.out.println(m);
-        System.out.println(k);
-        System.out.println(a);
+        System.out.print(m);
+        System.out.print(k);
+        System.out.print(a);
     }
 }
