@@ -4,17 +4,17 @@ class Person {
     final String country = "Indonesia";
 
     // Constructor class Person
-    Person(String paramName, String paramAddress){
-        name = paramName;
-        address = paramAddress;
+    Person(String name, String address){
+        this.name = name;
+        this.address = address;
     }
 
     // Constructor Overloading
-    Person(String paramName){
+    Person(String name){
         // name = paramName;
 
         /* cara memanggil Constructor lain*/
-        this(paramName, null);
+        this(name, null);
 
     }
 
@@ -24,7 +24,7 @@ class Person {
         this(null);
 
     }
-    void sayHello(String paramName) {
-        System.out.println("Hello " + paramName + ", My name is " + name);
+    void sayHello(String name) {
+        System.out.println("Hello " + name + ", My name is " + this.name);
     }
 }
