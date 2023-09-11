@@ -1,18 +1,25 @@
 package mukura.belajarjava.data;
 
-public class Avanza implements Car {
+public class Bus implements Car {
 
 
     public void drive() {
-        System.out.println("Avanza Drive");
+        System.out.println("Bus Drive");
     }
+
 
     public int getTier() {
-        return 4;
+        return 8;
     }
 
+
+    public boolean isBig() {
+        return true;
+    }
+
+
     public String getBrand() {
-        return "Toyota";
+        return "HINO";
     }
 
     public boolean isMaintenance() {
